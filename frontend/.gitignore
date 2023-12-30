@@ -1,0 +1,22 @@
+# Dependency directories
+/node_modules
+
+
+
+
+
+# Environment variables
+.env*
+
+# User-specific files
+npm-debug.log*
+yarn-error.log*
+*.lock
+.pnp.js
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+

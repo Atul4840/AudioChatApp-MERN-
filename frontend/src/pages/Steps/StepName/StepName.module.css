@@ -1,0 +1,12 @@
+.cardWrapper{
+    composes: cardWrapper from "../../../App.module.css";
+}
+.paragraph{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.actionButtonWrap {
+    margin-top: 30px;
+  }
