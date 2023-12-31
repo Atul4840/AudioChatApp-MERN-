@@ -110,7 +110,7 @@ class AuthController {
         userData._id,
         refreshtokenfromcookie
       );
-      console.log(token);
+      // console.log(token);
       if (!token) {
         return res.status(401).json({ message: "Invalid token from check db" });
       }

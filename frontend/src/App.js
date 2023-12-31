@@ -14,6 +14,7 @@ import { useSelector } from "react-redux";
 import { useState } from "react";
 import { useLoadingWithRefresh } from "./hooks/useLoadingWithRefresh";
 import Loader from "./components/shared/Loader/Loader";
+import Room from "./pages/Room/Room";
 
 function App() {
   const GuestRoute = ({ element, ...props }) => {
@@ -67,6 +68,7 @@ function App() {
         />
 
         <Route path="/rooms" element={<ProtectedRoute element={<Rooms />} />} />
+        <Route path="/room/:id" element={<ProtectedRoute element={<Room />} />} />
       </Routes>
     </Router>
   );
